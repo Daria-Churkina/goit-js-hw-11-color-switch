@@ -1,0 +1,20 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+button {
+  background-color: whitesmoke;
+  border-style: 5px solid grey;
+  padding: 25px 50px;
+  font-size: 25px;
+  font-style: italic;
+  cursor: pointer;
+  color: black;
+  border-radius: 5%;
+}
